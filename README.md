@@ -1,4 +1,4 @@
-#FreeCodeCamp - Camper Leaderboard
+# FreeCodeCamp - Camper Leaderboard
 
 Camper Leaderboard made with React for FreeCodeCamp curriculum
 
