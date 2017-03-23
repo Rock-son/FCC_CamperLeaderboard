@@ -2,7 +2,7 @@ import React from 'react';
 import TableRow from './tableRow.jsx';
 
 
-class Table extends React.Component {
+export default class Table extends React.Component {
     constructor() {
         super();
      // only in ES6 - mandatory binding of custom methods
@@ -72,5 +72,3 @@ class Table extends React.Component {
         );
     }
 }
-
-export default Table;
