@@ -1,0 +1,151 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background-color: white;
+  min-width: 450px; }
+
+#main {
+  width: 80%;
+  min-height: 100%;
+  margin-left: 10%; }
+
+.head {
+  width: 100%;
+  min-height: 80px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 80px;
+  font-family: Calibri, Arial, Sanserif;
+  text-align: center;
+  color: lightgrey;
+  text-shadow: -2px 0 white, 0 1px black, 2px 10px 15px black, 0 -1px white;
+  background-color: #009933;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  -o-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  -khtml-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -ms-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0; }
+
+.table {
+  display: table;
+  width: 100%;
+  min-height: 25px;
+  font-family: Calibri, Arial;
+  text-shadow: 0 1px black, 0 1px black, 1px 10px 15px grey; }
+  .table .tblRow {
+    display: table-row;
+    height: 55px;
+    font-size: 20px;
+    border: 1px solid grey;
+    vertical-align: middle; }
+    .table .tblRow:nth-child(1) {
+      height: 65px;
+      font-size: 25px;
+      font-weight: 700;
+      color: grey; }
+    .table .tblRow:nth-child(odd) {
+      background-color: #dcffdc;
+      background-color: #f0f0f0; }
+    .table .tblRow:nth-child(even) {
+      background-color: white; }
+  .table .tblData {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid grey; }
+    .table .tblData:nth-child(1) {
+      width: 5%; }
+    .table .tblData:nth-child(2) {
+      width: 35%;
+      text-align: left;
+      padding-left: 10px; }
+    .table .tblData:nth-child(3) {
+      width: 25%; }
+    .table .tblData:nth-child(4) {
+      width: 25%; }
+    .table .tblData.th {
+      cursor: pointer; }
+      .table .tblData.th:hover {
+        text-decoration: underline; }
+      .table .tblData.th.active {
+        color: #33adff;
+        color: #009933; }
+  .table img {
+    max-width: 45px;
+    max-height: 45px;
+    border: 1px solid black;
+    margin-right: 10px;
+    vertical-align: middle;
+    -o-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%; }
+  .table a {
+    color: #007acc;
+    text-decoration: none;
+    -o-transition: transform 0.2s;
+    -webkit-transition: transform 0.2s;
+    -khtml-transition: transform 0.2s;
+    -moz-transition: transform 0.2s;
+    -ms-transition: transform 0.2s; }
+    .table a:visited {
+      color: #007acc; }
+    .table a:hover {
+      color: darkgreen;
+      -o-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -khtml-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1); }
+
+.footer {
+  width: 80%;
+  min-height: 100%;
+  margin-left: 10%;
+  min-height: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  font-family: Calibri, Arial, Sanserif;
+  text-align: center;
+  color: grey;
+  text-shadow: 1px 0 white, 0 1px black, 2px 10px 15px black, 0 -1px white;
+  background-color: #009933;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  -o-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px;
+  -khtml-border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  -ms-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px; }
+  .footer a {
+    color: grey;
+    text-decoration: none;
+    text-shadow: 1px 0 white, 0 1px black, 2px 10px 15px black, 0 -1px white; }
+
+@media screen and (max-width: 690px) {
+  #main {
+    width: 95%;
+    margin-left: 2.5%; }
+  .head {
+    font-size: 30px; }
+  .table .tblRow {
+    height: 45px;
+    font-size: 14px; }
+    .table .tblRow:nth-child(1) {
+      height: 55px;
+      font-size: 18px; }
+  .footer {
+    width: 95%;
+    margin-left: 2.5%; } }
