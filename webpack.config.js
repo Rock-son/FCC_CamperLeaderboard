@@ -36,7 +36,10 @@ const config = {
         ]
     },
     plugins: [
-        new ExtractTextPlugin({filename: 'style.css'})
+        new ExtractTextPlugin({filename: 'style.css'}),
+        new webpack.optimize.CommonsChunkPlugin({
+            name: 'vendor'
+        })
     ]
 }
 
